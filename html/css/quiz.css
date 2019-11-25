@@ -1,0 +1,93 @@
+progress[value] {
+  /* Reset the default appearance */
+  -webkit-appearance: none;
+   appearance: none;
+
+  width: 1000px;
+  height: 32px;
+}
+
+progress[value]::-webkit-progress-bar {
+  width: 1000px;
+  background-color: #eee;
+  border-radius: 24px;
+  border: #F2F2F2 4px solid;
+  box-shadow: 4px 4px 8px rgb(175, 175, 175);
+}
+
+.barPower progress[value]::-webkit-progress-value {
+  background-color: #eb5757;
+  border-radius: 24px;
+  transition: 0.2s width;
+  background-size: 35px 20px, 100% 100%, 100% 100%;
+}
+
+.barPrestige progress[value]::-webkit-progress-value {
+  background-color: #f2c94c;
+  border-radius: 24px;
+  transition: 0.2s width;
+  background-size: 35px 20px, 100% 100%, 100% 100%;
+}
+
+
+.quiz-image {
+  width: 100%;
+}
+
+
+.cardContainer {
+  width: 440px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 18px;
+  box-shadow: 10px 10px 24px 0 rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  border:4px #4F4F4F solid;
+  overflow: hidden;
+  background:rgba(255, 255, 255, 0.8);
+  cursor: normal;
+  transition: all 0.2;
+}
+
+button {
+  background-color: #4F4F4F;
+  color: white;
+  font-size: 16px;
+  padding: 8px 16px;
+  border-radius: 4px;
+}
+
+button.quiz-opt.range {
+  /* display:inline-block; */
+  display: block;
+  width: 100%;
+  margin: 6px 0;
+  margin-right:12px;
+  /* position:relative; */
+}
+
+button.quiz-opt:hover {
+  background:#000;
+  cursor:pointer;
+  transition: all .30s ease;
+}
+
+.barPower .indicator {
+  background-color: #eb5757;
+  color: white;
+  width: 180px;
+  padding: 8px 0 8px 16px;
+  margin-left: 16px;
+  border-radius: 16px;
+  font-size: 16px;
+} 
+
+.barPrestige .indicator {
+  background-color: #f2c94c;
+  color: white;
+  width: 180px;
+  padding: 8px 0 8px 16px;
+  margin-left: 16px;
+  border-radius: 16px;
+  font-size: 16px;
+} 

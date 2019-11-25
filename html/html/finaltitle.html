@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Final Title</title>
+    <link rel="stylesheet" type="text/css" href="../css/finaltitle.css">
+    <link href="https://fonts.googleapis.com/css?family=Sigmar+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Patua+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Amatic+SC&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Mansalva&display=swap" rel="stylesheet">
+</head>
+<!--Reference: 58 CSS Modal Windows: https://codepen.io/fajjet/pen/oqLGgq-->
+<body>
+    <!--Click the FINAL TITLE button to trigger the popup window-->
+    <div class="wrapper">
+        <div class="button" onclick="document.body.classList.add('active')">
+            <span class="button-text">Final Title</span>
+            <div class="button-backgrounds">
+                <div class="button-spot button-spot1"></div>
+                <div class="button-spot button-spot2"></div>
+                <div class="button-spot button-spot3"></div>
+                <div class="button-spot button-spot4"></div>
+            </div>
+        </div>
+    </div>
+
+    <!--Popup window part-->
+
+    <div class="wrapper">
+        <div class="popup">
+            <div class="popup-inside">
+                <div class="halos">
+                    <div class="halo"></div>
+                    <div class="halo halo2"></div>
+                    <div class="halo halo3"></div>
+                    <div class="halo halo4"></div>
+                    <div class="halo halo5"></div>
+                    <div class="halo halo6"></div>
+                </div>
+            </div>
+            <!--popup window content-->
+            <div class="content">
+                <div class="content-user">
+                    <div class="user">
+                        <!--image reference: https://www.army.gov.au/our-people/australian-army-rank-structure/other-ranks-->
+                        <img class="title-image" src="../images/final-title-card.png" alt="final-title-card">
+                        <h1 class="user-name">USER: TEAM CHALLENGER</h1>
+                    </div>
+                    <div class="content-presentation">
+                        <p>CONGRATULATIONS! YOU ARE: <div class="your-title"><b>A Lonely Powerful Marshal</b></div></p>
+                        <h6>(REGIMENTAL-SERGEANT-MAJOR-OF-THE-ARMY)</h6>
+                        <p class="play-again" onclick="document.body.classList.remove('active')">
+                        
+                            <b>PLAY AGAIN?</b>
+                            
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

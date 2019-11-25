@@ -1,0 +1,43 @@
+body{
+    height:auto;
+    width:auto;
+    background-size:cover;
+    vertical-align: middle;
+    background: url("../images/indexBg.jpg") no-repeat ;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    -moz-background-size:cover;
+}
+
+.wrap{
+    width:1200px;
+    margin:0px auto;
+}
+.slide {
+    height:500px;
+    margin:0px 18em;
+    position: relative;
+}
+.slide li{
+    position: absolute;
+    left:200px;
+    top:0;
+}
+.slide li img{
+    width:100%;
+}
+
+.prev{
+    width:75px;
+    height:70px;
+    position: absolute;
+    top:2%;
+    margin-left:48%;
+    background: url("../images/military.jpg") no-repeat ;
+    background-size: 100%;
+    z-index: 99;
+    border:0px solid;
+    border-radius: 10%;
+    outline:none;
+    cursor:pointer
+}
